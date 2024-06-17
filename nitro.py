@@ -1,0 +1,5 @@
+import time, random, string
+while True:
+    link = str(str("https://discord.com/gift/") +  str((random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters)) + str(random.choice(string.ascii_letters))))
+    time.sleep(0.02)
+    print(link)
